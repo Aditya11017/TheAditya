@@ -1,0 +1,124 @@
+@font-face {
+  font-family: an;
+  src: url("font/anurati_font/Anurati-Regular.otf"); }
+
+@font-face {
+  font-family: apalu;
+  src: url("font/apulu/Apalu.otf"); }
+
+@font-face {
+  font-family: goth;
+  src: url("font/Gotham-Font/GothamBook.ttf"); }
+
+@font-face {
+  font-family: goth-black;
+  src: url("font/Gotham-Font/Gotham-Black.otf"); }
+
+@font-face {
+  font-family: goth-thin;
+  src: url("font/Gotham-Font/Gotham-Thin.otf"); }
+
+@font-face {
+  font-family: goth-mid;
+  src: url("font/Gotham-Font/GothamMedium.ttf"); }
+
+@font-face {
+  font-family: hero;
+  src: url("font/hero/hero_4.ttf"); }
+
+@font-face {
+  font-family: apalu;
+  src: url("font/apulu/Apalu.ttf"); }
+
+@font-face {
+  font-family: mdn;
+  src: url("font/morden/ModernSans-Light.otf"); }
+
+@font-face {
+  font-family: mana;
+  src: url("font/prstartk.ttf"); }
+
+body {
+  font-family: goth; }
+
+.time {
+  font-family: goth-black;
+  font-weight: 900; }
+
+.year {
+  font-family: goth;
+  font-weight: 500; }
+
+.date {
+  font-family: goth;
+  font-weight: bolder; }
+
+.banner-text, .press-text {
+  font-family: mana; }
+
+.profile-name {
+  font-family: an;
+  font-size: 1.85em;
+  letter-spacing: .45em;
+  white-space: nowrap; }
+
+.type-info {
+  font-family: goth-black;
+  font-size: 1.7em;
+  font-weight: 500; }
+
+.contact-btn {
+  font-family: goth-thin;
+  font-size: 1.05em;
+  font-weight: 900; }
+
+.ab-title {
+  font-family: goth;
+  font-size: 1.35em;
+  font-weight: 600; }
+
+.note-title {
+  font-family: goth;
+  font-size: 17px;
+  font-weight: 550; }
+
+.info-text {
+  font-size: 16px;
+  font-weight: 900; }
+
+.note {
+  font-family: goth; }
+
+.plan-hd-1 {
+  font-family: goth-mid; }
+
+.plan-head-1 {
+  font-weight: bolder;
+  font-family: goth-mid; }
+
+.paln-sub-head {
+  font-family: goth;
+  font-weight: 500; }
+
+.plan-per {
+  font-family: goth-mid; }
+
+.face-icon {
+  font-size: 1.55em; }
+
+.g-head {
+  font-family: goth;
+  font-weight: 500; }
+
+.skill-title {
+  font-family: goth;
+  font-weight: 900; }
+
+.time-title {
+  font-family: goth;
+  font-weight: 900; }
+
+.timeline {
+  font-family: goth;
+  font-weight: 500; }
+/*# sourceMappingURL=font.css.map */

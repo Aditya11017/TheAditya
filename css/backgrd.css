@@ -1,0 +1,87 @@
+@-webkit-keyframes fly {
+  100% {
+    -webkit-transform: rotate(1turn) translate(700px) rotate(-1turn);
+            transform: rotate(1turn) translate(700px) rotate(-1turn); } }
+
+@keyframes fly {
+  100% {
+    -webkit-transform: rotate(1turn) translate(700px) rotate(-1turn);
+            transform: rotate(1turn) translate(700px) rotate(-1turn); } }
+
+@-webkit-keyframes flyPlus {
+  100% {
+    -webkit-transform: rotate(-1turn) translate(700px) rotate(1turn);
+            transform: rotate(-1turn) translate(700px) rotate(1turn); } }
+
+@keyframes flyPlus {
+  100% {
+    -webkit-transform: rotate(-1turn) translate(700px) rotate(1turn);
+            transform: rotate(-1turn) translate(700px) rotate(1turn); } }
+
+body {
+  background: var(--main-bg); }
+
+.wrapper {
+  width: 100vw;
+  height: 120vh;
+  position: fixed;
+  overflow: hidden;
+  z-index: -3; }
+
+.base {
+  position: absolute;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  opacity: 0.8; }
+
+.one {
+  border-radius: 100%;
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(188deg, #edcc07 0%, #ed9607 23%, #a63210 65%);
+  left: 50px;
+  z-index: 3;
+  -webkit-animation: fly 24s linear infinite;
+          animation: fly 24s linear infinite;
+  -webkit-transform: rotate(0) translate(160px) rotate(0);
+          transform: rotate(0) translate(160px) rotate(0); }
+
+.two {
+  width: 500px;
+  height: 800px;
+  background-color: var(--two);
+  left: -80px; }
+
+.three {
+  border-radius: 100%;
+  width: 450px;
+  height: 450px;
+  background-color: var(--three);
+  -webkit-animation: flyPlus 16s linear infinite;
+          animation: flyPlus 16s linear infinite;
+  -webkit-transform: rotate(0) translate(140px) rotate(0);
+          transform: rotate(0) translate(140px) rotate(0);
+  right: 60px; }
+
+.four {
+  border-radius: 100%;
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(188deg, #64bebc 0%, #3a8684 46%, #387170 68%);
+  right: 80px;
+  -webkit-animation: flyPlus 16s linear infinite;
+          animation: flyPlus 16s linear infinite;
+  -webkit-transform: rotate(0) translate(140px) rotate(0);
+          transform: rotate(0) translate(140px) rotate(0); }
+
+.five {
+  border-radius: 100%;
+  width: 450px;
+  height: 450px;
+  background: var(--five);
+  -webkit-animation: flyPlus 16s linear infinite;
+          animation: flyPlus 16s linear infinite;
+  -webkit-transform: rotate(0) translate(140px) rotate(0);
+          transform: rotate(0) translate(140px) rotate(0);
+  left: 180px; }
+/*# sourceMappingURL=backgrd.css.map */
