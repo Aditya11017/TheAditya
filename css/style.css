@@ -81,13 +81,13 @@ div[data-tool-tip]:hover::after {
   transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1); }
 
 .wall-pic {
-  background-image: url(css/img/adi-back-cover.svg);
+  background-image: url(/TheAditya/css/img/adi-back-cover.svg);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px; }
 
 .profile-pic {
   background-color: var(--bg-color);
-  background-image: url(css/img/profile-pic-18.png);
+  background-image: url(/TheAditya/css/img/profile-pic-18.png);
   margin: 3%;
   color: var(--font-color); }
 
